@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSubtitle"
+        android:minHeight="?attr/actionBarSize"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="6dp"
+        >
+        <ImageView
+            android:id="@+id/ballground_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/back"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textColor="@color/colorBlack"
+            android:text="@string/ballground_reserve"
+            android:textSize="18dp"
+            />
+    </RelativeLayout>
+
+    <com.example.springsora.balltogether.custom_layout.FirstRefreshLoadLayout
+        android:id="@+id/ballground_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.springsora.balltogether.custom_listview.SecondListView
+            android:id="@+id/ballground_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="10dp"
+            android:listSelector="#00000000"
+            >
+        </com.example.springsora.balltogether.custom_listview.SecondListView>
+    </com.example.springsora.balltogether.custom_layout.FirstRefreshLoadLayout>
+
+
+
+</LinearLayout>

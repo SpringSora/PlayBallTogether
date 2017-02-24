@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTitle">#308041</color>
+    <color name="colorBody">#E8E8E8</color>
+    <color name="colorHint">#D5D5D5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorMenu">#FFFFFF</color>
+    <color name="colorUnChecked">#A9B7B7</color>
+    <color name="colorSubtitle">#DDDDDD</color>
+    <color name="colorLine">#B3B3B3</color>
+    <color name="colorTitleDeep">#1A774C</color>
+    <color name="colorModifyHint">#636363</color>
+    <color name="colorWarning">#DD4422</color>
+    <color name="colorWarningPress">#CC3311</color>
+    <color name="colorDateBallSubmit">#F0F0F0</color>
+    <color name="colorIconBlack">#272636</color>
+</resources>

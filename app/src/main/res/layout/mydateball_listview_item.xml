@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    >
+
+    <RelativeLayout
+        android:id="@+id/mydateball_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <com.example.springsora.balltogether.custom_view.CircleImageView
+            android:id="@+id/mydateball_user_pic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/default_logo"
+            />
+        <TextView
+            android:id="@+id/mydateball_user_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mydateball_user_pic"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/mydateball_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mydateball_user_pic"
+            android:layout_toRightOf="@+id/mydateball_user_pic"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/mydateball_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTitle"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/mydateball_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"
+        />
+    <ImageView
+
+        android:id="@+id/mydateball_pic"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/preview"
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/mydateball_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLine"
+        android:textSize="12dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/colorBody"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <RelativeLayout
+        android:id="@+id/mydateball_cancel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:id="@+id/mydateball_cancel"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/order_button2"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="取消约球"
+                android:textColor="@color/colorTitle"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

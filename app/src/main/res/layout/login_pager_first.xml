@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorLine"
+        />
+    <EditText
+        android:id="@+id/login_user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/login_user_hint"
+        android:textColorHint="@color/colorHint"
+        android:background="@color/colorWhite"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textSize="15dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorLine"
+        />
+    <EditText
+        android:id="@+id/login_pw"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/login_pw_hint"
+        android:textColorHint="@color/colorHint"
+        android:background="@color/colorWhite"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:inputType="textPassword"
+        android:textSize="15dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorLine"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@color/colorTitle"
+        android:elevation="3dp"
+        >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:text="@string/login"
+                android:gravity="center"
+                />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

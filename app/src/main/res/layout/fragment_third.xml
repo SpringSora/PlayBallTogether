@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/register_title_main"/>
+    <include layout="@layout/register_process"  />
+    <View
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorLine"
+        />
+    <EditText
+        android:id="@+id/register_edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorWhite"
+        android:hint="@string/input_phone_hint"
+        android:textColorHint="@color/colorHint"
+        android:textSize="15dp"
+        android:textColor="@color/colorBlack"
+        android:inputType="phone"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorLine"
+        />
+
+    <RelativeLayout
+        android:id="@+id/register_send_code"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@color/colorLine"
+        android:elevation="3dp"
+        android:focusableInTouchMode="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:text="@string/send_code"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    >
+    <RelativeLayout
+        android:id="@+id/ballground_detail_set_date"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/ballground_detail_set_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_ball_pickdate"
+            />
+        <TextView
+            android:id="@+id/ballground_detail_date"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ballground_detail_set_date_text"
+            android:layout_toRightOf="@+id/ballground_detail_set_date_text"
+            />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/forward_gray"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/colorBody"
+        />
+
+
+
+    <RelativeLayout
+        android:id="@+id/ballground_detail_set_starttime"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/ballground_detail_set_starttime_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_ball_set_start_time"
+            />
+        <TextView
+            android:id="@+id/ballground_detail_starttime"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ballground_detail_set_starttime_text"
+            android:layout_toRightOf="@+id/ballground_detail_set_starttime_text"
+            />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/forward_gray"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="0.1dp"
+    android:background="@color/colorBody"
+    />
+    <RelativeLayout
+        android:id="@+id/ballground_detail_set_endtime"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/ballground_detail_set_endtime_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_ball_set_end_time"
+            />
+        <TextView
+            android:id="@+id/ballground_detail_endtime"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ballground_detail_set_endtime_text"
+            android:layout_toRightOf="@+id/ballground_detail_set_endtime_text"
+            />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/forward_gray"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

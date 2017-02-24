@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTitle"
+    android:orientation="vertical"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine"
+        />
+    <RelativeLayout
+        android:id="@+id/user_login"
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+        <com.example.springsora.balltogether.custom_view.CircleImageView
+            android:id="@+id/user_pic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/default_logo"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/user_nicname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/user_pic"
+            android:text="@string/fourth_pager_please_logo"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/please_logo"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/forward"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

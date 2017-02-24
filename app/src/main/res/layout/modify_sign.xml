@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBody"
+    android:fitsSystemWindows="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSubtitle"
+        android:minHeight="?attr/actionBarSize"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="6dp"
+
+        >
+        <ImageView
+            android:id="@+id/modify_sign_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/back"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_toRightOf="@id/modify_sign_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorBlack"
+            android:text="@string/modify_sign"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine"
+        android:layout_marginBottom="16dp"
+        />
+    
+    <EditText
+        android:id="@+id/modify_sign_edit"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorWhite"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:imeOptions="actionDone"
+        android:hint="介绍下自己"
+        android:gravity="top"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="16dp"
+        android:id="@+id/modify_sign_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorTitle"
+        android:elevation="3dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:text="@string/submit"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

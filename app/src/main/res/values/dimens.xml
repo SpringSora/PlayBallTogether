@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="search_text_size">12dp</dimen>
+    <dimen name="ImageXY">10dp</dimen>
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+    <dimen name="bottom_tab_padding_up">2.0dip</dimen>
+    <dimen name="SubTitle">18dp</dimen>
+    <dimen name="please_logo">18dp</dimen>
+    <dimen name="please_register">15dp</dimen>
+    <dimen name="userinfo_mod_pic">30dp</dimen>
+    <dimen name="userinfo_forward">15dp</dimen>
+</resources>

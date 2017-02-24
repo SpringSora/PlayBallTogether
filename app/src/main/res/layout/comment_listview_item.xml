@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.springsora.balltogether.custom_view.CircleImageView
+            android:id="@+id/view_comment_userpic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/default_logo"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/view_comment_nicname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/view_comment_userpic"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_comment_datetime"
+            android:layout_alignBottom="@+id/view_comment_userpic"
+            android:layout_toRightOf="@+id/view_comment_userpic"
+            android:layout_marginLeft="10dp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/view_comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        />
+</LinearLayout>
